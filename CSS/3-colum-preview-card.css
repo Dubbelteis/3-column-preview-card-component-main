@@ -1,0 +1,90 @@
+:root {
+    --ff-main: "Lexend Deca", sans-serif;
+    --ff-accent: "Big Shoulders Display", sans-serif;
+}
+
+body {
+    font-family: var(--ff-main);
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(0, 0%, 95%);
+    padding: 0;
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 5rem 0rem 0rem;
+}
+
+.sedans {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px 0px 0px 8px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 2.5rem;
+}
+
+.suv {
+    width: 100%;
+    max-width: 200px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5rem;
+}
+
+.luxury {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5rem;
+}
+
+h1 {
+    font-family: var(--ff-accent);
+    font-weight: 700;
+}
+
+.sedan-button {
+    --text-color-button: hsl(31, 77%, 52%);
+}
+
+.suv-button {
+    --text-color-button: hsl(184, 100%, 22%);
+}
+
+.luxury-button {
+    --text-color-button: hsl(179, 100%, 13%);
+}
+
+.button {
+    font-family: var(--ff-main);
+    color: var(--text-color-button);
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    padding: 1rem 2rem;
+    margin: 4rem 2rem 0rem 0rem;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    border-color: hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    color: hsl(179, 100%, 13%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
